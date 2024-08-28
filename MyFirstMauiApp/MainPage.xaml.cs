@@ -1,13 +1,18 @@
 ﻿using System;
 using Microsoft.Maui.Controls;
+using CommunityToolkit.Maui.Alerts;
 
 namespace MyFirstMauiApp
 {
     public partial class MainPage : ContentPage
     {
+
+        private readonly MainViewModel? viewModel; // new added
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = viewModel = Application.Current?.Handler?.MauiContext?.
+                                     Services?.GetService<MainViewModel>(); // new added
         }
 
         private void OnLogonClicked(object sender, EventArgs e)
@@ -45,10 +50,15 @@ namespace MyFirstMauiApp
             return account == "admin" && password == "password";
         }
 
-        //Settings page navigation
+        // SQLite page navigation
         private async void OnSettingsIconClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SettingsPage());
+            await Navigation.PushAsync(new SQLitePage());
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            viewModel?.OnViewAppearing();
         }
 
     }

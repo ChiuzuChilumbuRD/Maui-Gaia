@@ -25426,11 +25426,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chiuzuchilumbu/Downloads/MetaGuru/Gaia-Maui/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
+      "projectUniqueName": "/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
       "projectName": "MyFirstMauiApp",
-      "projectPath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/Gaia-Maui/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
+      "projectPath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
       "packagesPath": "/Users/chiuzuchilumbu/.nuget/packages/",
-      "outputPath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/Gaia-Maui/Maui-Gaia/MyFirstMauiApp/obj/",
+      "outputPath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6V+Vs9v4fPs=",
+  "dgSpecHash": "IICGHODXorQ=",
   "success": true,
-  "projectFilePath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/Gaia-Maui/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
+  "projectFilePath": "/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/MyFirstMauiApp.csproj",
   "expectedPackageFiles": [
     "/Users/chiuzuchilumbu/.nuget/packages/communitytoolkit.maui/9.0.2/communitytoolkit.maui.9.0.2.nupkg.sha512",
     "/Users/chiuzuchilumbu/.nuget/packages/communitytoolkit.maui.core/9.0.2/communitytoolkit.maui.core.9.0.2.nupkg.sha512",

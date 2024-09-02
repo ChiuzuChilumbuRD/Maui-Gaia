@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>MyFirstMauiApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/chiuzuchilumbu/Downloads/MetaGuru/maui/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/mtouch-symbols.list</SymbolFile>
       <DSymName>MyFirstMauiApp.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/chiuzuchilumbu/Downloads/MetaGuru/maui/MyFirstMauiApp</SourceProjectPath>
+      <SourceProjectPath>/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

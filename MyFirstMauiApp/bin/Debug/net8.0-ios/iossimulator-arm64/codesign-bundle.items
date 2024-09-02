@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/chiuzuchilumbu/Downloads/MetaGuru/maui/MyFirstMauiApp</SourceProjectPath>
+      <SourceProjectPath>/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

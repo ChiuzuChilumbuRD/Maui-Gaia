@@ -1,10 +1,14 @@
-﻿namespace MyFirstMauiApp
+﻿using MyFirstMauiApp.Services;
+
+namespace MyFirstMauiApp
 {
     public partial class SQLitePage : ContentPage
     {
+        private readonly WiFiStatusChecker _wiFiStatusChecker; // WiFi Connection
         public SQLitePage()
         {
             InitializeComponent();
+            _wiFiStatusChecker = new WiFiStatusChecker(this); // WiFi Connection
 
             // add the setting button on navigation bar
             ToolbarItems.Add(new ToolbarItem
@@ -37,6 +41,12 @@
         {
             base.OnAppearing();
             (BindingContext as MainViewModel)?.OnViewAppearing();
+            _wiFiStatusChecker.Start();
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            _wiFiStatusChecker.Stop();
         }
     }
 }

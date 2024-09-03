@@ -1,18 +1,22 @@
 ﻿using System;
 using Microsoft.Maui.Controls;
 using CommunityToolkit.Maui.Alerts;
+using MyFirstMauiApp.Services;
 
 namespace MyFirstMauiApp
 {
     public partial class MainPage : ContentPage
     {
 
-        private readonly MainViewModel? viewModel; // new added
+        private readonly MainViewModel? viewModel; // SQLite function
+        private readonly WiFiStatusChecker _wiFiStatusChecker; // WiFi Connection
         public MainPage()
         {
             InitializeComponent();
             BindingContext = viewModel = Application.Current?.Handler?.MauiContext?.
-                                     Services?.GetService<MainViewModel>(); // new added
+                                     Services?.GetService<MainViewModel>(); // SQLite Function
+
+            _wiFiStatusChecker = new WiFiStatusChecker(this); // WiFi Connection
         }
 
         private void OnLogonClicked(object sender, EventArgs e)
@@ -59,7 +63,12 @@ namespace MyFirstMauiApp
         {
             base.OnAppearing();
             viewModel?.OnViewAppearing();
+            _wiFiStatusChecker.Start(); // Start the WiFi Connection Checker
         }
-
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            _wiFiStatusChecker.Stop(); // Stop the WiFi Connection Checker
+        }
     }
 }

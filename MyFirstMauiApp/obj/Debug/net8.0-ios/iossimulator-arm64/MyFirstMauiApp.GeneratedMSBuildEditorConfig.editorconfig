@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.SettingsPag
 build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SettingsPage.xaml
 
+[/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/SQLitePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.SQLitePage.xaml
+build_metadata.AdditionalFiles.TargetPath = SQLitePage.xaml
+build_metadata.AdditionalFiles.RelativePath = SQLitePage.xaml
+
 [/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/SuccessPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.SuccessPage.xaml

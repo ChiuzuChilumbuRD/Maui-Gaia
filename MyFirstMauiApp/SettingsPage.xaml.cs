@@ -1,13 +1,16 @@
 using Microsoft.Maui.Controls;
 using System;
+using MyFirstMauiApp.Services;
 
 namespace MyFirstMauiApp
 {
     public partial class SettingsPage : ContentPage
     {
+        private readonly WiFiStatusChecker _wiFiStatusChecker; // WiFi Connection
         public SettingsPage()
         {
             InitializeComponent();
+            _wiFiStatusChecker = new WiFiStatusChecker(this); // WiFi Connection
         }
 
         private async void OnCancelClicked(object sender, EventArgs e)
@@ -57,6 +60,16 @@ namespace MyFirstMauiApp
             Console.WriteLine($"Language set to: {cultureCode}");
 
             // In the future, you would set the localization and refresh UI components here
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            _wiFiStatusChecker.Start();
+        }
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            _wiFiStatusChecker.Stop();
         }
     }
 }

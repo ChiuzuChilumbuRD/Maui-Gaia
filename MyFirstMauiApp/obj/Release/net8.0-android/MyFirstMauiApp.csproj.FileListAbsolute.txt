@@ -472,3 +472,4 @@ C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\android\src\crc64f62664462a8937a9\SingleLocationListener.java

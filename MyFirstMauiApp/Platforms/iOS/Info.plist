@@ -28,5 +28,8 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>我們需要存取您的位置以顯示GPS訊號。</string>
 </dict>
 </plist>

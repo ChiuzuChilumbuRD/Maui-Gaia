@@ -38,7 +38,7 @@ namespace MyFirstMauiApp
                 DisplayAlert("Success", "You have successfully logged in.", "OK");
 
                 // Navigate to the success page
-                Navigation.PushAsync(new SuccessPage());
+                Navigation.PushAsync(new GPSPage());
             }
             else
             {

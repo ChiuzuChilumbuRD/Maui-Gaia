@@ -19,6 +19,7 @@ obj\Release\net8.0-android\android-arm\aot\Microsoft.Maui.dll.so
 obj\Release\net8.0-android\android-arm\aot\Microsoft.Maui.Essentials.dll.so
 obj\Release\net8.0-android\android-arm\aot\Microsoft.Maui.Graphics.dll.so
 obj\Release\net8.0-android\android-arm\aot\Newtonsoft.Json.dll.so
+obj\Release\net8.0-android\android-arm\aot\Plugin.LocalNotification.dll.so
 obj\Release\net8.0-android\android-arm\aot\SQLite-net.dll.so
 obj\Release\net8.0-android\android-arm\aot\SQLiteNetExtensions.dll.so
 obj\Release\net8.0-android\android-arm\aot\SQLitePCLRaw.batteries_v2.dll.so
@@ -48,9 +49,14 @@ obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.Navigation.UI.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.RecyclerView.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.SavedState.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.VersionedParcelable.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.ViewPager.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.AndroidX.ViewPager2.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.Google.Android.Material.dll.so
+obj\Release\net8.0-android\android-arm\aot\Xamarin.GooglePlayServices.Base.dll.so
+obj\Release\net8.0-android\android-arm\aot\Xamarin.GooglePlayServices.Basement.dll.so
+obj\Release\net8.0-android\android-arm\aot\Xamarin.GooglePlayServices.Location.dll.so
+obj\Release\net8.0-android\android-arm\aot\Xamarin.GooglePlayServices.Tasks.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.Kotlin.StdLib.dll.so
 obj\Release\net8.0-android\android-arm\aot\Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
 obj\Release\net8.0-android\android-arm\aot\Microsoft.CSharp.dll.so
@@ -95,6 +101,8 @@ obj\Release\net8.0-android\android-arm\aot\System.Runtime.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Security.Cryptography.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Text.Encoding.Extensions.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Text.Encoding.dll.so
+obj\Release\net8.0-android\android-arm\aot\System.Text.Encodings.Web.dll.so
+obj\Release\net8.0-android\android-arm\aot\System.Text.Json.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Text.RegularExpressions.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Threading.Tasks.dll.so
 obj\Release\net8.0-android\android-arm\aot\System.Threading.Thread.dll.so

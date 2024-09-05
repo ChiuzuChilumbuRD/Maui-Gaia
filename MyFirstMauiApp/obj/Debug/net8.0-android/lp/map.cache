@@ -163,3 +163,7 @@ Microsoft.Maui.Essentials.aar
 SQLitePCLRaw.lib.e_sqlite3.android.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
+playservicesbasement-18.2.0.aar
+playservicestasks-18.0.2.aar
+playservicesbase-18.2.0.aar
+playserviceslocation-21.0.1.aar

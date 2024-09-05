@@ -89,6 +89,10 @@
               "version": "[8.0.7, )",
               "autoReferenced": true
             },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[11.1.1, )"
+            },
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -160,6 +164,10 @@
               "version": "[8.0.7, )",
               "autoReferenced": true
             },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[11.1.1, )"
+            },
             "SQLiteNetExtensions": {
               "target": "Package",
               "version": "[2.1.0, )"
@@ -230,6 +238,10 @@
               "target": "Package",
               "version": "[8.0.7, )",
               "autoReferenced": true
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[11.1.1, )"
             },
             "SQLiteNetExtensions": {
               "target": "Package",

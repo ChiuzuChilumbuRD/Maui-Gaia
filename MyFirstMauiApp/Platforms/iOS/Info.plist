@@ -29,7 +29,12 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
 
+    <!-- Location permission for GPS signal-->
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>我們需要存取您的位置以顯示GPS訊號。</string>
+
+    <!-- Notificaion permission for sending notifications-->
+    <key>NSUserNotificationUsageDescription</key>
+    <string>We need to send you notifications for important updates.</string>
 </dict>
 </plist>

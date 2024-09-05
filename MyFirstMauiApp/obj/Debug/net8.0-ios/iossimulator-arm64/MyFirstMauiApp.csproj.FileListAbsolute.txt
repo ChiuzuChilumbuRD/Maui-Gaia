@@ -1091,9 +1091,6 @@
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/sp/splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@2x.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/sp/splash_7CF9AE42DA2017EC6621B726A870D40F01970097ED8F3D99ABBC1EC8470F119D@3x.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/mauisplash.stamp
-/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/dotnet_bot@3x.png
-/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/dotnet_bot@2x.png
-/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/dotnet_bot.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Assets.xcassets/appicon.appiconset/appiconItunesArtwork.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon83.5x83.5@2x.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon76x76@2x.png
@@ -1137,3 +1134,11 @@
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/MyFirstMauiApp.pdb
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/MyFirstMauiApp.genruntimeconfig.cache
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/ref/MyFirstMauiApp.dll
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/bin/Debug/net8.0-ios/iossimulator-arm64/Plugin.LocalNotification.dll
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/sp/splash_8682E66438F1F62CE290028558DA004D12A14F2A971FF296E15CDC3BD223870A.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/sp/splash_8682E66438F1F62CE290028558DA004D12A14F2A971FF296E15CDC3BD223870A@2x.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/sp/splash_8682E66438F1F62CE290028558DA004D12A14F2A971FF296E15CDC3BD223870A@3x.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/logo_en@3x.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/logo_en@2x.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/logo_en.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Resources/dotnet_bot.png

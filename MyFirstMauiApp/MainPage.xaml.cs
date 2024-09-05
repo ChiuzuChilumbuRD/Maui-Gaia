@@ -10,6 +10,7 @@ namespace MyFirstMauiApp
 
         private readonly MainViewModel? viewModel; // SQLite function
         private readonly WiFiStatusChecker _wiFiStatusChecker; // WiFi Connection
+        private readonly NotificationService _notificationService; // Notification function
         public MainPage()
         {
             InitializeComponent();
@@ -17,6 +18,7 @@ namespace MyFirstMauiApp
                                      Services?.GetService<MainViewModel>(); // SQLite Function
 
             _wiFiStatusChecker = new WiFiStatusChecker(this); // WiFi Connection
+            _notificationService = new NotificationService(); // Notification function
         }
 
         private void OnLogonClicked(object sender, EventArgs e)
@@ -35,7 +37,16 @@ namespace MyFirstMauiApp
             // Simulate a login process (you can replace this with actual authentication logic)
             if (IsLoginValid(account, password))
             {
-                DisplayAlert("Success", "You have successfully logged in.", "OK");
+                Console.WriteLine("Notification Triggered"); // Debug log to confirm trigger
+
+                _notificationService.ShowNotification(
+                    notificationId: 1,
+                    title: "Test Notification",
+                    subtitle: "Subtitle",
+                    description: "This is a test notification.",
+                    badgeNumber: 1,
+                    delay: TimeSpan.Zero // Show notification immediately
+                );
 
                 // Navigate to the success page
                 Navigation.PushAsync(new GPSPage());
@@ -45,6 +56,7 @@ namespace MyFirstMauiApp
                 DisplayAlert("Error", "Invalid account or password.", "OK");
             }
         }
+
 
 
         // Simulate login validation

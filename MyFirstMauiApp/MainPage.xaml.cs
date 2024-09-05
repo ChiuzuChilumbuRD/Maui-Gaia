@@ -37,15 +37,16 @@ namespace MyFirstMauiApp
             // Simulate a login process (you can replace this with actual authentication logic)
             if (IsLoginValid(account, password))
             {
-                _notificationService.ShowNotification(
-                notificationId: 1,
-                title: "Test Notification",
-                subtitle: "Subtitle",
-                description: "This is a test notification.",
-                badgeNumber: 1,
-                delay: TimeSpan.Zero // Show notification immediately
-            );
+                Console.WriteLine("Notification Triggered"); // Debug log to confirm trigger
 
+                _notificationService.ShowNotification(
+                    notificationId: 1,
+                    title: "Test Notification",
+                    subtitle: "Subtitle",
+                    description: "This is a test notification.",
+                    badgeNumber: 1,
+                    delay: TimeSpan.Zero // Show notification immediately
+                );
 
                 // Navigate to the success page
                 Navigation.PushAsync(new GPSPage());
@@ -55,6 +56,7 @@ namespace MyFirstMauiApp
                 DisplayAlert("Error", "Invalid account or password.", "OK");
             }
         }
+
 
 
         // Simulate login validation

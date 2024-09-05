@@ -168,13 +168,10 @@ Microsoft.Maui.Essentials.aar
 SQLitePCLRaw.lib.e_sqlite3.android.aar
 Xamarin.Google.Crypto.Tink.Android.aar
 Xamarin.Google.ErrorProne.Annotations.aar
-<<<<<<< HEAD
-=======
 play-services-base.aar
 play-services-basement.aar
 play-services-location.aar
 play-services-tasks.aar
->>>>>>> Notification
 playservicesbasement-18.2.0.aar
 playservicestasks-18.0.2.aar
 playservicesbase-18.2.0.aar

@@ -1142,3 +1142,4 @@
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/logo_en@2x.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/logo_en.png
 /Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Resources/dotnet_bot.png
+/Users/chiuzuchilumbu/Downloads/MetaGuru/github-metaguru/Maui-Gaia/MyFirstMauiApp/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Plugin.LocalNotification.stamp

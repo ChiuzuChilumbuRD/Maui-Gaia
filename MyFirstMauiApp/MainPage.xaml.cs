@@ -38,13 +38,14 @@ namespace MyFirstMauiApp
             if (IsLoginValid(account, password))
             {
                 _notificationService.ShowNotification(
-                    notificationId: 1337,
-                    title: "Login Success", // 推播標題
-                    subtitle: "MetaGuru", // 推播子標題
-                    description: "You have successfully logged in.", // 推播內容
-                    badgeNumber: 1,
-                    delay: TimeSpan.FromSeconds(1) // 幾秒後發送推播
-                );
+                notificationId: 1,
+                title: "Test Notification",
+                subtitle: "Subtitle",
+                description: "This is a test notification.",
+                badgeNumber: 1,
+                delay: TimeSpan.Zero // Show notification immediately
+            );
+
 
                 // Navigate to the success page
                 Navigation.PushAsync(new GPSPage());

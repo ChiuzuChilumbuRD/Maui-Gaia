@@ -488,3 +488,7 @@ C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable-hdpi\logo_en.png
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable-mdpi\logo_en.png
 C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable\dotnet_bot.png
+C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable\camera.png
+C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\android\src\microsoft\maui\essentials\fileProvider.java
+C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable\http_post.png
+C:\Users\reena.tsai\Documents\maui-guru\Maui-Gaia\MyFirstMauiApp\obj\Release\net8.0-android\resizetizer\r\drawable\http_get.png

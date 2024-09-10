@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.AppShell.xa
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/reena.tsai/Documents/maui-guru/Maui-Gaia/MyFirstMauiApp/CameraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.CameraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CameraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CameraPage.xaml
+
 [C:/Users/reena.tsai/Documents/maui-guru/Maui-Gaia/MyFirstMauiApp/GPSPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.GPSPage.xaml
@@ -35,12 +41,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[C:/Users/reena.tsai/Documents/maui-guru/Maui-Gaia/MyFirstMauiApp/NotificationPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = MyFirstMauiApp.NotificationPage.xaml
-build_metadata.AdditionalFiles.TargetPath = NotificationPage.xaml
-build_metadata.AdditionalFiles.RelativePath = NotificationPage.xaml
 
 [C:/Users/reena.tsai/Documents/maui-guru/Maui-Gaia/MyFirstMauiApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

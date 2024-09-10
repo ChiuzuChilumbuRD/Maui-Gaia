@@ -14,6 +14,20 @@ namespace MyFirstMauiApp
             _wiFiStatusChecker = new WiFiStatusChecker(this); // WiFi Connection
             _gpsService = new GpsService(this); // GPS Location
             GetGpsSignal();
+
+            // add the setting button on navigation bar
+            ToolbarItems.Add(new ToolbarItem
+            {
+                IconImageSource = "camera.png", // icon image
+                Order = ToolbarItemOrder.Primary, // the button is on the navigation bar
+                Priority = 0,
+                Command = new Command(OnCameraIconClicked)
+            });
+        }
+
+        private async void OnCameraIconClicked(object obj) // Updated method signature
+        {
+            await Navigation.PushAsync(new CameraPage());
         }
 
         private async void GetGpsSignal()

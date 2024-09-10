@@ -10,11 +10,24 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <!-- 添加 <queries> 元素 -->
+  <queries>
+    <intent>
+      <action android:name="android.media.action.IMAGE_CAPTURE" />
+    </intent>
+  </queries>
   <permission android:name="com.companyname.myfirstmauiapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.myfirstmauiapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc64ea481263f3d0927b.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="MyFirstMauiApp" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <provider android:name="microsoft.maui.essentials.fileProvider" android:authorities="com.companyname.myfirstmauiapp.fileProvider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths" />
+    </provider>
     <activity android:name="crc64ba438d8f48cf7e75.IntermediateActivity" android:configChanges="orientation|screenSize" android:exported="false" />
     <receiver android:name="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
     <receiver android:name="plugin.LocalNotification.GeofenceTransitionsIntentReceiver" android:enabled="true" android:exported="false" android:label="Plugin LocalNotification Geofence Transitions Receiver" />

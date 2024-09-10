@@ -1,6 +1,9 @@
-﻿obj\Release\net8.0-android\resizetizer\r\drawable\dotnet_bot.png
+﻿obj\Release\net8.0-android\resizetizer\r\drawable\camera.png
+obj\Release\net8.0-android\resizetizer\r\drawable\dotnet_bot.png
 obj\Release\net8.0-android\resizetizer\r\drawable\edit.png
 obj\Release\net8.0-android\resizetizer\r\drawable\gaia_logo.png
+obj\Release\net8.0-android\resizetizer\r\drawable\http_get.png
+obj\Release\net8.0-android\resizetizer\r\drawable\http_post.png
 obj\Release\net8.0-android\resizetizer\r\drawable\setting.png
 obj\Release\net8.0-android\resizetizer\r\drawable-hdpi\logo_en.png
 obj\Release\net8.0-android\resizetizer\r\drawable-mdpi\logo_en.png
